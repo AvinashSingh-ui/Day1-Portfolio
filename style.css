@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header {
+    padding: 30px;
+    margin: 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display:flex;
+    gap: 20px;
+}
+
+nav a {
+    padding: 8px;
+    text-decoration: none;
+}
+section {
+    padding: 30px;
+    margin: 30px;
+    border: px solid black;
+}
+#skills ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    list-style: none;
+}
+
+#skills li {
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+#projects h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+#projects article {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+}
+
+#contact button {
+    width: fit-content;
+    padding: 10px 20px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 30px;
+    border-top: 2px solid black;
+    text-align: center;
+}
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    #projects {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header {
+        margin: 10px;
+        padding: 15px;
+    }
+
+ header h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    #projects article {
+        padding: 15px;
+    }
+
+    #skills ul {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #skills li {
+        text-align: center;
+    }
+}
