@@ -1,23 +1,47 @@
 # Frontend Developer Portfolio
 
-A simple portfolio website built using **HTML5** as part of Day 1 frontend training.
+A simple and responsive portfolio website created as part of frontend training.
+
+## Day 1 – HTML5
+
+Created the basic structure of the portfolio using HTML5.
+
+### Topics Covered
+
+- HTML5 structure
+- Semantic HTML
+- Forms
+- ARIA accessibility
+- Basic SEO
+
+## Day 2 – CSS3
+
+Styled the portfolio and made the layout responsive across different screen sizes.
+
+### Topics Covered
+
+- CSS Box Model
+- Flexbox
+- CSS Grid
+- Responsive Design
+- Media Queries
 
 ## Features
 
-* About Me section
-* Skills section
-* Projects section
-* Contact form
-* Semantic HTML5
-* ARIA accessibility
-* Basic SEO
+- About Me section
+- Skills section
+- Projects section
+- Contact form
+- Responsive layout
+- Clean CSS styling
 
 ## Technologies Used
 
-* HTML5
-* Semantic HTML
-* ARIA
-* SEO
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- Media Queries
 
 ## Projects
 
@@ -40,8 +64,3 @@ Portfolio/
 ├── index.html
 ├── style.css
 └── Readme.md
-```
-
-## Author
-
-**Avinash Singh**
